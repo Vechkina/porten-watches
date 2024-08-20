@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider } from "styled-components";
+import { GlobalStyle } from "./styles/globalStyles";
+import { theme } from "./styles/theme";
+import Header from "./components/Header/Header.sc";
+import Main from "./components/Main/Main.sc";
+import Nav from "./components/Nav/Nav.sc";
+import NewCollection from "./components/NewCollection/NewCollection.sc";
+import OldCollection from "./components/OldCollection/OldCollection.sc";
+import Footer from "./components/Footer/Footer.sc";
+import Brands from "./components/Brands/Brands.sc";
+import Products from "./components/Products/Products.sc";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      <ThemeProvider theme={theme}>
+        <Header />
+        <Nav />
+        <Main />
+        <NewCollection />
+        <OldCollection />
+        <Products />
+        <Brands />
+        <Footer />
+      </ThemeProvider>
+    </>
   );
 }
 
