@@ -1,3 +1,3 @@
-# [Многостраничный сайт](https://vechkina.github.io/porten-watches/)
+# [SPA](https://vechkina.github.io/porten-watches/)
 
 - Верстка styled components
