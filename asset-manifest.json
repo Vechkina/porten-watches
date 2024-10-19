@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/porten-watches/static/js/main.e4b70122.js",
+    "static/media/bg.png": "/porten-watches/static/media/bg.3f0bf489f3e542631f7e.png",
+    "static/media/catalogue.png": "/porten-watches/static/media/catalogue.d6592faafe586f1ff5ff.png",
+    "static/media/footer_bg.png": "/porten-watches/static/media/footer_bg.90ee10a5411050934ab5.png",
+    "static/media/collection.png": "/porten-watches/static/media/collection.20a0a13797eb359d8fa8.png",
+    "static/media/brands.svg": "/porten-watches/static/media/brands.a5ae48703c32c9c0e74b3e8f41df4903.svg",
+    "static/media/watch.png": "/porten-watches/static/media/watch.c4fca456d5f425d18b20.png",
+    "static/media/logo.svg": "/porten-watches/static/media/logo.8aa314be4dfd930e3b9dcb8c53825481.svg",
+    "index.html": "/porten-watches/index.html",
+    "main.e4b70122.js.map": "/porten-watches/static/js/main.e4b70122.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e4b70122.js"
+  ]
+}
